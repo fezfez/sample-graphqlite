@@ -23,5 +23,5 @@ This repo is only here to expose a problem in graphqlite. it contains a very sim
 
 # the problem
 
-the `MyCustomInputType` is well recognize by graphqlite (it exists in the introspection) but when the mutation is run and expection
+the `MyCustomInputType` is well recognize by graphqlite (it exists in the introspection) but when the mutation is run an expection
 is throw with the message `cannot find GraphQL type "MyCustomInputType". Check your TypeMapper configuration.`
