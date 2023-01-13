@@ -1,0 +1,21 @@
+# This file was generated based on ".graphqlconfig". Do not edit manually.
+
+schema {
+    query: Query
+    mutation: Mutation
+}
+
+type Mutation {
+    "my custom mutation"
+    myCustomMutation(id: String!, myCustomInput: MyCustomInputType!): Boolean!
+}
+
+type Query {
+    "A placeholder query used by thecodingmachine/graphqlite when there are no declared queries."
+    dummyQuery: String
+}
+
+input MyCustomInputType {
+    date: String!
+    user: String!
+}
